@@ -19,17 +19,145 @@
 <body>
 
     <!-- HEADER -->
-    <h1>STUDIO PAGE!</h1>
+
     <!-- Navbar -->
 
     <!-- CAROUSSEL -->
+    <div class="container-fluid">
+        <!-- CAROUSEL -->
+        <div class="row row-content">
+            <div class="col-md-12 mx-auto">
+                <div id="studioCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#studioCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#studioCarousel" data-slide-to="1"></li>
+                        <li data-target="#studioCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100 carousel-img1" src="img/studio1.JPG" alt="studio1" />
+                            <div class="carousel-caption">
+                                    <h3>Ivan Hernanandez</h3>
+                                    <h3>Studio</h3>
+                                    <h3>Welcome</h3>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100 carousel-img2" src="img/studio2.JPG" alt="studio2" />
+                            <div class="carousel-caption">
+                                <h3>Teaching Philosphy</h3>
+                                <p class="d-none d-sm-block">"I aim to bring an open mind, and  positive attitude to each lesson. 
+                                    I believe that adding consistency, diligence, and warmth to my teaching will ultimately 
+                                    inspire and encourage such traits in my students as well."</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100 carousel-img3" src="img/studio3.JPG" alt="Chrome River Campground" />
+                            <div class="carousel-caption">
+                                <h3>Online Classes Available</h3>
+                                <p class="d-none d-sm-block">Come and join a dyamic studio full of fun and learning.
+                                    From beginner to Pro.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#studioCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#studioCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
 
     <!-- CONTENT -->
-    <!-- WELCOME-->
-
     <!-- PLANS -->
-
+    <section class="plans">
+        <h2>PLANS</h2>
+        <div  class="row">
+            <div class="pricing-column col-lg-3 col-md-6">
+              <div class="card">
+                <div class="card-header">
+                  <h3>Demo Lesson</h3>
+                </div>
+                <div class="card-body">
+                  <h2>Free</h2>
+                  <p>20 min lesson</p>
+                  <button type="button" class="btn btn-lg btn-block btn-outline-dark">Sign Up</button> 
+                </div>
+              </div>
+            </div>
+            <div class="pricing-column col-lg-3 col-md-6">
+              <div class="card">
+                <div class="card-header">
+                  <h3>Novice</h3>
+                </div>
+                <div class="card-body">
+                  <h2>$80 / mo</h2>
+                  <p>Four 30 min lessons</p>
+                  <p>Access to Student Portal</p>
+                  <p></p>
+                  <button type="button" class="btn btn-lg btn-block btn-dark">Sign Up</button>
+                </div>
+              </div>
+            </div>
+            <div class="pricing-column col-lg-3 col-md-6">
+              <div class="card">
+                <div class="card-header">
+                  <h3>Protege</h3>
+                </div>
+                <div class="card-body">
+                  <h2>$120 / mo</h2>
+                  <p>Pirority Bookings</p>
+                  <p>Four 45 min lesson</p>
+                  <p>Access to Student Portal</p>
+                  <button type="button" class="btn btn-lg btn-block btn-dark">Sign Up</button>
+                </div>
+              </div> 
+            </div>
+            <div class="pricing-column col-lg-3 col-md-6">
+                <div class="card">
+                  <div class="card-header">
+                    <h3>Virtuoso</h3>
+                  </div>
+                  <div class="card-body">
+                    <h2>$160 / mo</h2>
+                    <p>Pirority Bookings</p>
+                    <p>Four 60 min lessons</p>
+                    <p>Acces to Student Portal</p>
+                    <p>Flexible scheduling</p>
+                    <button type="button" class="btn btn-lg btn-block btn-dark">Sign Up</button>
+                  </div>
+                </div> 
+              </div>
+          </div>
+    </section>
+    
     <!-- STUDENT LOGIN -->
+    <section class="student-login">
+        <h2>STUDENT LOGIN</h2>
+        <div class="container d-flex justify-content-center">
+            <div class="col-sm-4">
+                <form action="#">
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                      </div>
+                      <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="Password">
+                      </div>
+                      <button type="submit" class="btn btn-dark">Submit</button>   
+                </form>
+            </div>
+        </div>
+        
+       
+
+    </section>
 
     <!-- FOOTER -->
 
