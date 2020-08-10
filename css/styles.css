@@ -38,7 +38,7 @@ h2 {
 .carousel-img3 {
     height: 20rem;
     width: 40rem;
-    object-fit: fill;
+    object-fit: cover;
 }
 .carousel-caption {
     color: black;
