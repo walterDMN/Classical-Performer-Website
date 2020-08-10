@@ -17,7 +17,7 @@ h2 {
 }
 
 
-/* -------------STUDIO------------ */
+/* --------------------------------------------------STUDIO--------------------------------- */
 
 /* CASROUSSEL */
 
@@ -67,7 +67,7 @@ form {
     text-align: left;
 }
 
-/* -----------STUDENT PORTAL---------- */
+/* ---------------------------------------------STUDENT PORTAL--------------------------- */
 .student-portal {
     margin-top: 5%;
     text-align: center;
@@ -101,4 +101,32 @@ form {
     background-color: #fff;
     text-align: right;
     padding: 5%;
+}
+
+/* ----------------------------------SHOPPING CART -------------------------------- */
+/* ----Items-list--- */
+.items-list {
+    margin-top: 3%;
+    padding: 5%;
+    border: 3px solid #32527B;
+    text-align: center;
+}
+
+.items-list h1 {
+    color: #32527B;
+    padding-bottom: 10%;
+}
+
+
+/* ---CHECKOUT COLUMN---- */
+.checkout-column{
+    padding: 5%;
+}
+
+.checkout-button{
+    padding: 3% 18%;
+}
+
+.paypal {
+    margin: 5% 0;
 }
