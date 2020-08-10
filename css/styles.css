@@ -92,5 +92,13 @@ form {
     margin-top: 10%;
     background-color: #ececec;
     text-align: center;
-    padding-top: 5%;
+    padding: 5%;
+}
+
+/* -----Make Payment---- */
+
+.make-payment {
+    background-color: #fff;
+    text-align: right;
+    padding: 5%;
 }
