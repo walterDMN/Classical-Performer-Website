@@ -130,3 +130,28 @@ form {
 .paypal {
     margin: 5% 0;
 }
+
+/* ----------------------------------DONATION--------------------------------- */
+.make-donation {
+    border: 3px solid #32527B;
+    margin-top: 5%;
+    padding: 5% 2% 2%;
+}
+
+.make-donation h1 {
+    color: #32527B;
+    text-align: center;
+}
+
+ .donation-img {
+   width: 35rem;
+   height: 43rem;
+   margin-top: 5%;
+}
+
+.donation-pic {
+    margin-top: 1.7rem;
+    background-image: url("../img/clar1.jpg");
+    background-size: cover;
+  }
+
