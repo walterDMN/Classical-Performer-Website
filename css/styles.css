@@ -7,15 +7,91 @@ body{
 /* HEADERS */
 h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
-}
-
-h2 {
     color: #32527B;
 }
-.carousel-captio p{
+
+
+
+/* ------------------------------------------LANDING PAGE-------------------------- */
+/* -----NAVBAR----- */
+
+
+.navbar-brand span{
+    font-family: Ubuntu;
+    font-size: 3.5rem;
     font-weight: 400;
+    color: #C4C4C4;
 }
 
+.nav-item {
+    padding: 0 18px
+
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+/* -----JUMBOTRON----- */
+
+.jumbotron {
+    margin-top: 1rem;
+    background-image: url("../img/main.jpg");
+    background-size: cover;
+    background-position-y: 15%;
+    height: 42rem;
+}
+
+@media only screen and (max-width: 1050px) {
+    .jumbotron {
+        height: 25rem;
+    }
+  }
+
+/* -------- BIO --------- */
+.bio-header{
+    margin-bottom: 5%;
+}
+  
+
+/* --------NEWS---------- */
+.news-section {
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+.newsHeader {
+    margin-bottom: 5%;
+}
+
+/* --------FOOTER--------- */
+.site-footer {
+    background-color: #464648;
+    margin-top: 5%;
+    padding: 2.5rem 0;
+}
+
+.footer-link {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.footer-link:hover {
+    color: #000;
+}
+.social-icon{
+    color: #fff;
+}
+
+.copyright {
+    font-size: .7rem;
+    font-weight: bold;
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+    
+}
 
 /* --------------------------------------------------STUDIO--------------------------------- */
 
@@ -45,6 +121,9 @@ h2 {
     top: 50%;
     transform: translateY(-50%);
     background-color: rgba(255, 255, 255, 0.7);
+}
+.carousel-caption p{
+    font-weight: 400;
 }
 
 /* -------------PLANS--------- */

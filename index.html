@@ -19,17 +19,127 @@
 <body>
 
     <!-- HEADER -->
-    <h1>LANDING PAGE!</h1>
-    <!-- Navbar -->
-
-    <!-- Jumbotron -->
-
+    <section id="title">
+        <div class="container-fluid">
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-md navbar-light sticky-top">
+                <a class="navbar-brand" href="index.html"><span>Ivan Hernandez</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mainNavbar">    
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active"><a class="nav-link" href="index.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="calendar.html">Calendar</a></li>
+                        <li class="nav-item"><a class="nav-link" href="stream.html">Stream</a></li>
+                        <li class="nav-item"><a class="nav-link" href="studio.html">Studio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="media.html">Media</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-shopping-cart fa-lg"></i></a></li>
+                    </ul>
+                </div>  
+            </nav>
+        </div>
+    </section>
+   
+   <!-- Jumbotron -->
+    <div class="jumbotron">
+        <!-- included with css <img src="img/main.jpg" class="img-fluid" /> -->
+    </div>
     <!-- CONTENT -->
     <!-- Bio-->
+    <!-- Bio-->
+    <section class="container">
+        <div class="row">
+            <div class="col pt-4">
+                <h1 class="bio-header">Ivan Hernandez</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-7">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut est id felis tristique suscipit efficitur 
+                    in arcu. Nulla eget est eros. Duis mauris metus, accumsan et gravida et, luctus quis diam. Praesent a erat metus. 
+                    Praesent sed finibus nisl. Phasellus sodales elit sed luctus varius. Aenean volutpat vehicula convallis. Duis malesuada 
+                    nibh a diam fermentum, in ultrices mauris rutrum. Morbi eros augue, imperdiet sed quam auctor, hendrerit molestie orci. 
+                    Proin auctor dictum neque quis euismod.</p>
+
+                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean ac cursus neque. 
+                    Aenean bibendum dapibus dapibus. Nullam ornare nunc congue magna elementum sodales. Donec et libero et ipsum 
+                    fringilla aliquet non ac risus. Mauris tincidunt orci vitae nulla consequat, non consequat dolor vestibulum.</p>
+                    
+                <p>Integer tincidunt rutrum venenatis. Vestibulum convallis nibh nec augue vestibulum lobortis. Ut fermentum eget nisl 
+                    quis dignissim. Etiam in auctor orci. Blandit auctor dictum vitae, tempus et lacus. Ut augue lacus, tempor vel metus 
+                    ut, ultrices facilisis est. Curabitur suscipit ligula risus.</p>
+            </div>
+        </div>
+    </section>
 
     <!-- NEWS -->
+    <section class="container news-section">
+        <div class="row">
+            <div class="col">
+                <h1 class="newsHeader">News</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-4 mb-1">
+                <div class="card bg-light text-center">
+                    <img class="card-img-top" src="img/news1.jpg" alt="Some Alt Text Goes Here" />
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut est id felis tristique 
+                            suscipit efficitur in arcu. Nulla eget est eros. Duis mauris metus, accumsan et gravida et, 
+                            luctus quis diam.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 mb-1">
+                <div class="card bg-light text-center">
+                    <img class="card-img-top" src="img/news2.jpg" alt="Some Alt Text Goes Here" />
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut est id felis tristique 
+                            suscipit efficitur in arcu. Nulla eget est eros. Duis mauris metus, accumsan et gravida et, 
+                            luctus quis diam.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 mb-1">
+                <div class="card bg-light text-center">
+                    <img class="card-img-top" src="img/news4.jpg" alt="Some Alt Text Goes Here" />
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut est id felis tristique 
+                            suscipit efficitur in arcu. Nulla eget est eros. Duis mauris metus, accumsan et gravida et, 
+                            luctus quis diam.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <!-- FOOTER -->
+<!-- FOOTER -->
+<footer class="site-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-2 text-center">
+                <a class="footer-link" href="#"><p>STUDIO</p></a>
+            </div>
+            <div class="col-12 col-sm-8 text-center mt-2">
+                <a class="btn btn-social-icon social-icon" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                <a class="btn btn-social-icon social-icon" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                <a class="btn btn-social-icon social-icon" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                <a class="btn btn-social-icon social-icon" href="http://spotify.com/"><i class="fa fa-spotify"></i></a>
+                <a class="btn btn-social-icon social-icon" href="https://www.apple.com/itunes/"><i class="fa fa-apple"></i></a>
+            </div>
+            <div class="col-12 col-sm-2 text-center pt-1">
+                <a class="footer-link" href="#"><p>CONTACT</p></a>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-12">
+                <p class="copyright">&#169 Copyright - Ivan Hernandez - Walter Macedo - 2020<p></p>
+            </div>
+        </div>
+    </div>
+</footer>
 
 
     <!-- SCRIPTS -------jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
