@@ -14,8 +14,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ------------------------------------------LANDING PAGE-------------------------- */
 /* -----NAVBAR----- */
-
-
 .navbar-brand span{
     font-family: Ubuntu;
     font-size: 3.5rem;
@@ -23,10 +21,10 @@ h1, h2, h3, h4, h5, h6 {
     color: #C4C4C4;
 }
 
-.nav-item {
-    padding: 0 18px
+/* .nav-item {
+    padding: 0 18px;
 
-}
+} */
 
 .nav-link {
     font-size: 1.2rem;
@@ -174,30 +172,54 @@ form {
 
 /* ----------------------------------SHOPPING CART -------------------------------- */
 /* ----Items-list--- */
+
+
+.shopping-header {
+    margin-bottom: 10%;
+}
+
 .items-list {
-    margin-top: 3%;
-    padding: 5%;
-    border: 3px solid #32527B;
+    margin-top: 5%;
+    /* margin-bottom: 10%; */
+    padding-bottom: 5%;
+    /* border: 3px solid #32527B; */
     text-align: center;
 }
 
-.items-list h1 {
-    color: #32527B;
-    padding-bottom: 10%;
+.shopping-footer {
+    height: 200px;
+    width: 100%;
 }
+
+
+
 
 
 /* ---CHECKOUT COLUMN---- */
 .checkout-column{
-    padding: 5%;
+    margin-top: 5%;
+   padding-left: 12%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .checkout-column{
+        padding-left: 33%;
+    }
 }
 
 .checkout-button{
     padding: 3% 18%;
 }
 
-.paypal {
-    margin: 5% 0;
+.paypal-icon {
+    font-size: xxx-large;
+    padding-left: 20%;   
+}
+
+.payment-icons {
+    font-size: xx-large;
+    padding-left: 11%;
 }
 
 /* ----------------------------------DONATION--------------------------------- */
