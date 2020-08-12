@@ -102,22 +102,12 @@ a:-webkit-any-link {
     padding: 0;
 } */
 
-.carousel-img1 {
+.carousel-img1, .carousel-img2, .carousel-img3 {
     height: 30rem;
-    width: 40rem;
     object-fit: cover;
 
 }
-.carousel-img2 {
-    height: 30rem;
-    width: 40rem;
-    object-fit: cover;
-}
-.carousel-img3 {
-    height: 30rem;
-    width: 40rem;
-    object-fit: cover;
-}
+
 .carousel-caption {
     color: black;
     top: 50%;
