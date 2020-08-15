@@ -1,7 +1,6 @@
 {
   "name": "q",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "bootstrap": "^4.5.0",
@@ -14,5 +13,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ivan Hernandez",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/walterDMN/Classical-Performer-Website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/walterDMN/Classical-Performer-Website/issues"
+  },
+  "homepage": "https://github.com/walterDMN/Classical-Performer-Website#readme",
+  "description": ""
 }
